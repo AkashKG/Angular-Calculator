@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+
+*{
+  box-sizing:border-box;
+  font-family:Inconsolata, monospace;
+  font-size: 24px;
+  margin:0;
+  padding:0;
+}
+
+html {
+  height:100%;
+  background-size:cover;
+  
+  background: url("http://www.walldevil.com/wallpapers/a73/golden-spiral-spiral-geometry-math-mathematics.jpg") no-repeat center center fixed !important;
+  
+}
+
+#calculator {
+  width: 12em;
+  height:auto;
+  margin: 2em auto;
+}
+
+
+#top .input {
+height:2em;
+width:12em;
+  padding-right: 0.2em;
+float:right;
+color:#FFF;
+line-height: 3em;
+text-align:right;
+letter-spacing:1px;
+  background:rgba(19, 19, 19, .40);
+  
+}
+#top .stack{
+  height:2em;
+width:100%;
+  padding-right: 0.3em;
+float:right;
+color:#FFF;
+line-height: 2em;
+text-align:right;
+  font-size:12px;
+letter-spacing:1px;
+  background:rgba(19, 19, 19, .40);
+}
+
+.keys,#top {
+overflow:hidden;
+  
+}
+
+.keys span {
+float:left;
+cursor:pointer;
+width:3em;
+height:3em;
+line-height: 3em;
+color:#5cc8ff;
+text-align:center;
+user-select:none;
+background:rgba(19, 19, 19, .80);
+}
+
+.keys span.operator,span.clear {
+  color:#D81B60;
+
+}
+
+.keys span.equals {
+   color:#D81B60;
+}
+
+.keys span:hover {
+  color:#C2185B;
+}
+
+.keys span.operator:hover,span.clear:hover{
+  color:#00a3f5;
+}
+.keys span.equals:hover {
+}
+
+#top span.clear:hover {
+}
+
+.keys span:active {
+}
+
+.keys span.equals:active {
+}
+
+#top span.clear:active {
+}
+
+#console-colon{
+  width:1em;
+  background:rgba(19, 19, 19, .40);
+  opacity:0.4;
+  border-color:transparent; 
+}
+#console{
+  border-color:transparent; 
+  width:18em;
+  height:2em;
+  font-size:16px;
+  background:rgba(19, 19, 19, .40);
+  color:#fff;
+  opacity:0.9;
+  border-color:none;
+}
+.footer{
+ 
+}
+.btn-contact{
+  color:#4DB6AC;
+}
+.btn-contact:hover{
+  color:#fff;
+}
+
+
